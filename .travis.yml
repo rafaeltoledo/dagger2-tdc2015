@@ -31,7 +31,7 @@ env:
 notifications:
   email: false
 
-sudo: false
+sudo: true
 
 script:
   - ./gradlew test connectedCheck
